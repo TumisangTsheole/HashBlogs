@@ -75,3 +75,4 @@ C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_A
 C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.csproj.Up2Date
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.sourcelink.json

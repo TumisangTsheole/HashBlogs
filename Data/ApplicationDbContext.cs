@@ -11,6 +11,8 @@ namespace HashBlogs.Data
 		// Your Models Go Here
 		//public DbSet<MY_MODEL> MODEL_NAME { get; set; }
 
-		public DbSet<Blog> Blogs { get; set; }	
+		public DbSet<User> Users { get; set; }
+		public DbSet<Post> Posts { get; set; }
+		public DbSet<Comment> Comments { get; set; }	
 	}
 }

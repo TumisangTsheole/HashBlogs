@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HashBlogs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bca85738b39025a6aefb00192a7919b6c113f794")]
 [assembly: System.Reflection.AssemblyProductAttribute("HashBlogs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HashBlogs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
