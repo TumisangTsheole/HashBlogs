@@ -1,0 +1,77 @@
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.GeneratedMSBuildEditorConfig.editorconfig
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.AssemblyInfoInputs.cache
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.AssemblyInfo.cs
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.csproj.CoreCompileInputs.cache
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.MvcApplicationPartsAssemblyInfo.cache
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.RazorAssemblyInfo.cache
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.RazorAssemblyInfo.cs
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/appsettings.Development.json
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/appsettings.json
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs.staticwebassets.runtime.json
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs.deps.json
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs.runtimeconfig.json
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs.dll
+/home/blaze_tza/WebApplications/HashBlogs/bin/Debug/net8.0/HashBlogs.pdb
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets.build.json
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets.development.json
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets/msbuild.HashBlogs.Microsoft.AspNetCore.StaticWebAssets.props
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets/msbuild.build.HashBlogs.props
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.HashBlogs.props
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.HashBlogs.props
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/staticwebassets.pack.json
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/scopedcss/bundle/HashBlogs.styles.css
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/scopedcss/projectbundle/HashBlogs.bundle.scp.css
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.dll
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/refint/HashBlogs.dll
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.pdb
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/HashBlogs.genruntimeconfig.cache
+/home/blaze_tza/WebApplications/HashBlogs/obj/Debug/net8.0/ref/HashBlogs.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\appsettings.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.staticwebassets.runtime.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.exe
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.deps.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.runtimeconfig.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\bin\Debug\net8.0\HashBlogs.pdb
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.AssemblyInfoInputs.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.AssemblyInfo.cs
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.csproj.CoreCompileInputs.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.RazorAssemblyInfo.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.RazorAssemblyInfo.cs
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets\msbuild.HashBlogs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets\msbuild.build.HashBlogs.props
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HashBlogs.props
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HashBlogs.props
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\scopedcss\bundle\HashBlogs.styles.css
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\scopedcss\projectbundle\HashBlogs.bundle.scp.css
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\refint\HashBlogs.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.pdb
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.genruntimeconfig.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_Projects\Web_Apps\HashBlogs\obj\Debug\net8.0\ref\HashBlogs.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.csproj.AssemblyReference.cache
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs\obj\Debug\net8.0\HashBlogs.csproj.Up2Date
