@@ -17,9 +17,9 @@ namespace HashBlogs.Models
 		public required int AuthorId { get; set; }
 
 		// Navigation Property
-		[ForeignKey("UserId")]
+		[ForeignKey("AuthorId")]
 		[NotMapped] // Excludes navigation property from EF Core tracking
-		public required User User { get; set; }
+		public User? User { get; set; }
 
 		[Required]
 		public required string Title { get; set; }
