@@ -12,14 +12,9 @@ namespace HashBlogs.Models
 		[Required]
 		public required int PostId { get; set; }
 
-		[ForeignKey("User")]
+		[ForeignKey("UserId")]
 		[Required]
-		public required int AuthorId { get; set; }
-
-		// Navigation Property
-		[ForeignKey("AuthorId")]
-		[NotMapped] // Excludes navigation property from EF Core tracking
-		public User? User { get; set; }
+		public required int UserId { get; set; }
 
 		[Required]
 		public required string Title { get; set; }
@@ -29,5 +24,14 @@ namespace HashBlogs.Models
 
 		[Required]
 		public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+		
+		[ForeignKey("UserId")]
+		[NotMapped] // Excludes navigation property from EF Core tracking
+		public User? User { get; set; }
+
+		[NotMapped]
+		// Navigation Property (Post will have many comments)
+		public ICollection<Comment>? Comments { get; set; }
 	}
 }

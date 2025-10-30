@@ -36,6 +36,9 @@ namespace HashBlogs.Models
 
 		[Required]
 		public DateTime CreatedAt { get; set; } = DateTime.Now;
-		
+
+		// Navigation Properties (A User can have many Posts and Comments)
+		public ICollection<Post>? Posts { get; set; }
+		public ICollection<Comment>? Comments { get; set; }
 	}
 }

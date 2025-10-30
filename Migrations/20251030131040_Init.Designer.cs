@@ -3,6 +3,7 @@ using System;
 using HashBlogs.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HashBlogs.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251030131040_Init")]
+    partial class Init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,6 +66,9 @@ namespace HashBlogs.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("PostId"));
 
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -73,7 +79,7 @@ namespace HashBlogs.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("integer");
 
                     b.HasKey("PostId");
@@ -86,10 +92,10 @@ namespace HashBlogs.Migrations
                         new
                         {
                             PostId = 1,
+                            AuthorId = 1,
                             CreatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc),
                             Title = "Introduction to ASP.NET MVC",
-                            UpdatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc),
-                            UserId = 1
+                            UpdatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc)
                         });
                 });
 
@@ -161,9 +167,7 @@ namespace HashBlogs.Migrations
                 {
                     b.HasOne("HashBlogs.Models.User", null)
                         .WithMany("Posts")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("HashBlogs.Models.User", b =>

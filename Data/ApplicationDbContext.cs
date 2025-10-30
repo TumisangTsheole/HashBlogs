@@ -35,7 +35,7 @@ namespace HashBlogs.Data
 			modelBuilder.Entity<Post>().HasData(
 				new Post {
 					PostId = 1,
-					AuthorId = 1,
+					UserId = 1,
 					Title = "Introduction to ASP.NET MVC",
 					CreatedAt = DateTime.SpecifyKind(new DateTime(2025, 10, 28, 22, 32, 0), DateTimeKind.Utc),
 					UpdatedAt = DateTime.SpecifyKind(new DateTime(2025, 10, 28, 22, 32, 0), DateTimeKind.Utc)

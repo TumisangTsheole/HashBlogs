@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HashBlogs.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251028223307_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20251030132038_ChangedAuthorId_to_UserId_ForConvention")]
+    partial class ChangedAuthorId_to_UserId_ForConvention
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,8 @@ namespace HashBlogs.Migrations
 
                     b.HasKey("CommentId");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Comments");
 
                     b.HasData(
@@ -64,9 +66,6 @@ namespace HashBlogs.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("PostId"));
 
-                    b.Property<int>("AuthorId")
-                        .HasColumnType("integer");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -77,7 +76,12 @@ namespace HashBlogs.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
                     b.HasKey("PostId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
 
@@ -85,10 +89,10 @@ namespace HashBlogs.Migrations
                         new
                         {
                             PostId = 1,
-                            AuthorId = 1,
                             CreatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc),
                             Title = "Introduction to ASP.NET MVC",
-                            UpdatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc)
+                            UpdatedAt = new DateTime(2025, 10, 28, 22, 32, 0, 0, DateTimeKind.Utc),
+                            UserId = 1
                         });
                 });
 
@@ -145,6 +149,31 @@ namespace HashBlogs.Migrations
                             Password = "123456",
                             Username = "blazetza"
                         });
+                });
+
+            modelBuilder.Entity("HashBlogs.Models.Comment", b =>
+                {
+                    b.HasOne("HashBlogs.Models.User", null)
+                        .WithMany("Comments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("HashBlogs.Models.Post", b =>
+                {
+                    b.HasOne("HashBlogs.Models.User", null)
+                        .WithMany("Posts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("HashBlogs.Models.User", b =>
+                {
+                    b.Navigation("Comments");
+
+                    b.Navigation("Posts");
                 });
 #pragma warning restore 612, 618
         }

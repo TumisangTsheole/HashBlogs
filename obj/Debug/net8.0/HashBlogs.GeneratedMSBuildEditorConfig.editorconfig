@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Tumi\Desktop\Documents and txt Files\Main User\Developer_projects\Web_Apps\HashBlogs
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Tumi/Desktop/Documents and txt Files/Main User/Developer_projects/Web_Apps/HashBlogs/Views/Feed/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tumi/Desktop/Documents and txt Files/Main User/Developer_projects/Web_Apps/HashBlogs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

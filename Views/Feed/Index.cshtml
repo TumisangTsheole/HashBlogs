@@ -1,0 +1,8 @@
+@model HashBlogs.ViewModels.FeedViewModel
+
+@if (Model.currentUser != null)
+{
+	<h1>Welcome @Model.currentUser.FirstName @Model.currentUser.LastName</h1>
+	<p>@Model.Posts[0].Title</p>
+}
+

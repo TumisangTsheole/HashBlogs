@@ -14,7 +14,7 @@ namespace HashBlogs.Models
 		[Required]
 		public required int CommentId { get; set; }
 
-		[ForeignKey("Post")]
+		[ForeignKey("PostId")]
 		[Required]
 		public required int PostId { get; set; }
 
@@ -22,7 +22,7 @@ namespace HashBlogs.Models
 		[NotMapped]
 		public Post? Post { get; set; }
 
-		[ForeignKey("User")]
+		[ForeignKey("UserId")]
 		[Required]
 		public required int UserId { get; set; }
 
